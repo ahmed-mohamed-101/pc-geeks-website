@@ -1,0 +1,182 @@
+    /* nav */
+    .navbar {
+      background-color: black;
+      /* position: sticky;
+      top: 0; */
+    }
+    /* end */
+
+/* contact us all */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  box-sizing: border-box
+}
+
+.container {
+  background-color: black;
+  border-radius: 30px
+}
+
+h2 {
+  color: navy
+}
+
+.text-muted {
+  font-family: 'Ubuntu', sans-serif
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+  font-size: 25px;
+  font-weight: bold
+}
+
+.icon {
+  color: rgb(0,123,255);
+}
+
+/* .contact:hover {
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative
+} */
+
+form .container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto
+}
+
+input,
+textarea,
+.form-control {
+  outline: none;
+  border: none
+}
+
+.input-field {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px
+}
+
+.input-field:hover {
+  border: 2px solid rgb(0,123,255);
+  color: rgb(0,123,255);
+  cursor: pointer
+}
+
+label {
+  font-weight: 500
+}
+
+.fa-mobile {
+  font-size: 20px
+}
+
+#msg {
+  height: 220px
+}
+
+.btn {
+  background-color: rgb(0,123,255);
+  color: #fff;
+  padding: 5px 10px;
+  width: 200px;
+  margin: 10px auto
+}
+
+.mobile-info {
+  display: none
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+  form {
+    width: 75%
+  }
+
+  .container {
+    margin-top: 50px
+  }
+}
+
+@media(max-width:767px) {
+  .mobile-info {
+    display: inline
+  }
+
+  .contact-info {
+    display: none
+  }
+
+  .contact {
+    margin: 10px 0;
+    border: 1px solid rgb(105, 27, 179);
+    border-radius: 5px
+  }
+}
+.vv {
+  border: 2px solid rgb(0,123,255);
+  border-radius: 15px;
+}
+/* end */
+    /* footer */
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+    .pdd {
+      padding: 0;
+    }
+
+    .card {
+      padding: 1% 1%;
+      color: gray;
+      background-color: black;
+    }
+
+    .uo {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .uo>li {
+      padding: 4px;
+    }
+
+    .uo>li:hover {
+      color: white;
+      cursor: pointer;
+    }
+
+    hr {
+      border-width: 3px;
+    }
+
+    .social>i {
+      padding: 1%;
+      font-size: 15px;
+    }
+
+    .social>i:hover {
+      color: white;
+      cursor: pointer;
+    }
+
+    .policy>div {
+      padding: 4px;
+    }
+
+    .ho {
+      font-family: 'Titillium Web', sans-serif;
+      color: white;
+    }
+
+    .di {
+      border-top: 2px solid gray;
+    }
+
+    /* end */
