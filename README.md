@@ -1,5 +1,5 @@
 # pc-geeks-website
-- this is a fully responnsive website.
+- this is a fully responsive website.
 - with a great design that is designed by me.
 <hr>
 ## this is a pdf that contais all details about the website: <br>
