@@ -1,0 +1,170 @@
+/* ========body======== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* end */
+/* ========navbar======== */
+
+.navbar {
+    width: 100%;
+    background-color: #191825;
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.navbar a:hover {
+    background: none;
+    background-color: #E384FF;
+}
+
+.navbar a:nth-of-type(3):hover {
+    background: none;
+    background-color: none;
+}
+
+.active {
+    background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+/* end */
+/* the form */
+#form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    margin: 35px auto;
+    padding: 50px;
+    position: relative;
+}
+
+#form::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
+    border-radius: calc(5px + 5px);
+    background: linear-gradient(46.5deg, #5846f9 0%, #5846f9 50%, #E384FF 50%, #E384FF 100%);
+}
+
+#form h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#user:hover,
+#pass:hover {
+    border-color: #E384FF;
+    border-width: 3px;
+}
+
+#btn {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    left: 30%;
+}
+
+#btn:hover {
+    background: none;
+    background-color: #E384FF;
+    border: none;
+}
+
+@media screen and (max-width: 500px) {
+    #form {
+        width: 65%;
+        margin-left: none;
+        padding: 40px;
+    }
+}
+
+/* the end */
+/* ========footer======== */
+.pdd {
+    padding: 0;
+    margin-bottom: 0px;
+
+}
+
+.cardy {
+    padding: 1% 1%;
+    color: gray;
+    background-color: black;
+}
+
+.cardyAFter {
+    color: white;
+    background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+}
+
+.uo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.uo>li {
+    padding: 4px;
+}
+
+.uo>li:hover {
+    color: #E384FF;
+    cursor: pointer;
+}
+
+hr {
+    border-width: 3px;
+}
+
+.social>i {
+    padding: 1%;
+    font-size: 15px;
+}
+
+.social>i:hover {
+    color: #E384FF;
+    cursor: pointer;
+}
+
+.policy>div {
+    padding: 4px;
+}
+
+.ho {
+    color: white;
+}
+
+.di {
+    border-top: 2px solid gray;
+}
+
+/* end */
