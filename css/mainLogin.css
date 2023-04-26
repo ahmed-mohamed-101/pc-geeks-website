@@ -46,37 +46,29 @@ body {
 /* end */
 /* the form */
 #form {
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 10px;
     width: fit-content;
     height: fit-content;
-    margin: 35px auto;
     padding: 50px;
     position: relative;
-}
-
-#form::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    margin: -5px;
-    border-radius: calc(5px + 5px);
-    background: linear-gradient(46.5deg, #5846f9 0%, #5846f9 50%, #E384FF 50%, #E384FF 100%);
+    margin: 100px auto;
+    background: linear-gradient(-143deg, #5846f9 0%, #5846f9 50%, #E384FF 50%, #E384FF 100%);
 }
 
 #form h1 {
     text-align: center;
     font-weight: bold;
+    color: white;
 }
 
 #user:hover,
 #pass:hover {
     border-color: #E384FF;
     border-width: 3px;
+}
+
+label {
+    color: white;
 }
 
 #btn {
@@ -108,63 +100,3 @@ body {
 }
 
 /* the end */
-/* ========footer======== */
-.pdd {
-    padding: 0;
-    margin-bottom: 0px;
-
-}
-
-.cardy {
-    padding: 1% 1%;
-    color: gray;
-    background-color: black;
-}
-
-.cardyAFter {
-    color: white;
-    background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
-}
-
-.uo {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.uo>li {
-    padding: 4px;
-}
-
-.uo>li:hover {
-    color: #E384FF;
-    cursor: pointer;
-}
-
-hr {
-    border-width: 3px;
-}
-
-.social>i {
-    padding: 1%;
-    font-size: 15px;
-}
-
-.social>i:hover {
-    color: #E384FF;
-    cursor: pointer;
-}
-
-.policy>div {
-    padding: 4px;
-}
-
-.ho {
-    color: white;
-}
-
-.di {
-    border-top: 2px solid gray;
-}
-
-/* end */
