@@ -12,8 +12,8 @@ https://drive.google.com/file/d/1OgUmYQFFHdWzeNph10sugVp3ovDjzVZY/view?usp=share
 ## this is a link to a live demo of the website: <br>
 https://ahmed-mohamed-101.github.io/pc-geeks-website/ <br>
 !!! note u can't open the admin and login page in this live demo cuz i used (xampp) with apache and mysql . <br><br>
-
-*here is the steps on how u ca run the website on ur localhost machien with all the pages working: <br><br>
+<hr>
+## here is the steps on how u ca run the website on ur localhost machien with all the pages working: <br>
 -download xampp from here " https://www.apachefriends.org/download.html "<br>
 -open "xampp" file from "c:/" <br>
 -go to "htdocs" file <br>
