@@ -8,7 +8,7 @@ https://docs.google.com/presentation/d/1cljPFwZzGJQje1MZ-tEw_9RAFKQ1OhYl/edit?us
 ## this is a link of a vedio presenting the full website: <br> 
 https://drive.google.com/file/d/1bm47qDiCWioI6EujLaMB-ytV2TzHlyKf/view?usp=share_link
 <hr>
-## this is a link to a live version of the website: <br>
+## this is a link to a live demo of the website: <br>
 https://ahmed-mohamed-101.github.io/pc-geeks-website/ <br>
 !!! note u can't open the admin and login page in this live version cuz i used (xampp) with apache and mysql . <br><br>
 
@@ -22,4 +22,3 @@ https://ahmed-mohamed-101.github.io/pc-geeks-website/ <br>
 -start apache and MYSQL <br>
 -go to "pc geeks website" and run "index.html" file <br>
 -u can now browse the website's all features and pages <br>
--u can login in the login page with the username:admin & password:admin<br>
