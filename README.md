@@ -5,7 +5,7 @@
 ## this is a pdf that contais all details about the website: <br>
 https://docs.google.com/presentation/d/1cljPFwZzGJQje1MZ-tEw_9RAFKQ1OhYl/edit?usp=share_link&ouid=116613159436895691657&rtpof=true&sd=true
 <hr>
-## this is a link of a (2 minutes) vedio presenting the website: <br> 
+## this is a link of a (2 minutes) video presenting the website: <br> 
 https://drive.google.com/file/d/1OgUmYQFFHdWzeNph10sugVp3ovDjzVZY/view?usp=share_link
 
 <hr>
