@@ -1,19 +1,17 @@
 # pc-geeks-website
-- this is a fully responsive website.
-- with a great design that is designed by me.
-<hr>
+-A responsive e-commerce website with great design, an admin panel and login system.
+-html | css | bootstrap | jquery | php | sql | xampp.
+<br><hr>
 ## this is a pdf that contais all details about the website: <br>
 https://docs.google.com/presentation/d/1cljPFwZzGJQje1MZ-tEw_9RAFKQ1OhYl/edit?usp=share_link&ouid=116613159436895691657&rtpof=true&sd=true
-<hr>
+<br><hr>
 ## this is a link of a (2 minutes) video presenting the website: <br> 
 https://drive.google.com/file/d/1OgUmYQFFHdWzeNph10sugVp3ovDjzVZY/view?usp=share_link
-
-<hr>
+<br><hr>
 ## this is a link to a live demo of the website: <br>
 !!! note u can't open the admin and login page in this live demo cuz i used (xampp) with apache and mysql .
-https://ahmed-mohamed-101.github.io/pc-geeks-website/ <br>
- <br><br>
-<hr>
+https://ahmed-mohamed-101.github.io/pc-geeks-website/
+<br><br><br><hr>
 ## here is the steps on how u ca run the website on ur localhost machien with all the pages working: <br>
 -download xampp from here " https://www.apachefriends.org/download.html "<br>
 -open "xampp" file from "c:/" <br>
